@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { HeaderComponentModule } from './components/header/header.component-module';
+import { AvatarComponentModule } from './components/avatar/avatar.component-module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -11,6 +12,7 @@ import { HeaderComponentModule } from './components/header/header.component-modu
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     HeaderComponentModule,
+    AvatarComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

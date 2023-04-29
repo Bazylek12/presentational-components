@@ -11,22 +11,24 @@ import { ProductFormTestComponent } from './product-form.test-component';
 import { RatingViewTestingComponent } from './rating-view.test-component';
 import { ReadMorePanelTestComponent } from './read-more-panel.test-component';
 import { HeaderComponentModule } from '../components/header/header.component-module';
+import { AvatarComponentModule } from '../components/avatar/avatar.component-module';
 
 @NgModule({
   declarations: [
     HeaderTestComponent,
     AvatarTestComponent,
-    CardTestComponent,
-    HeroTestComponent,
-    AddressFormTestComponent,
-    ProductFormTestComponent,
-    ReadMorePanelTestComponent,
-    RatingViewTestingComponent,
+  //  CardTestComponent,
+    // HeroTestComponent,
+    // AddressFormTestComponent,
+    // ProductFormTestComponent,
+    // ReadMorePanelTestComponent,
+    // RatingViewTestingComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     HeaderComponentModule,
+    AvatarComponentModule,
   ],
   providers: [],
 })
