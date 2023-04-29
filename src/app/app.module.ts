@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { HeaderComponentModule } from './components/header/header.component-module';
 import { AvatarComponentModule } from './components/avatar/avatar.component-module';
+import { CardComponentModule } from './components/card/card.component-module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,6 +14,7 @@ import { AvatarComponentModule } from './components/avatar/avatar.component-modu
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     HeaderComponentModule,
     AvatarComponentModule,
+    CardComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -17,7 +17,7 @@ import { AvatarComponentModule } from '../components/avatar/avatar.component-mod
   declarations: [
     HeaderTestComponent,
     AvatarTestComponent,
-  //  CardTestComponent,
+    CardTestComponent,
     // HeroTestComponent,
     // AddressFormTestComponent,
     // ProductFormTestComponent,
