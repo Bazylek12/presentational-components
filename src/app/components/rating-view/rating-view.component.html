@@ -1,0 +1,6 @@
+<i 
+*ngFor="let starValue of $stars|async; let i = index"
+    [ngClass]="{'icon-star':starValue===1,'icon-star-half-empty':starValue===0.5, 'icon-star-empty':starValue===0}"
+    (click)="onStarSelected(i)"
+    >
+</i>

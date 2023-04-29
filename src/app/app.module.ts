@@ -6,6 +6,7 @@ import { appRoutes } from './app.routes';
 import { HeaderComponentModule } from './components/header/header.component-module';
 import { AvatarComponentModule } from './components/avatar/avatar.component-module';
 import { CardComponentModule } from './components/card/card.component-module';
+import { RatingViewComponentModule } from './components/rating-view/rating-view.component-module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { CardComponentModule } from './components/card/card.component-module';
     HeaderComponentModule,
     AvatarComponentModule,
     CardComponentModule,
+    RatingViewComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

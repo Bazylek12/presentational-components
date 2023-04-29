@@ -7,9 +7,13 @@ import { CardViewModel } from './components/card/card.view-model';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+
   title = 'components';
   readonly card: CardViewModel = {
     title: "Hello",
     description: "I am a card!"
   }
+  emitValue(e: number): void {
+    console.log(e)
+    }
 }
