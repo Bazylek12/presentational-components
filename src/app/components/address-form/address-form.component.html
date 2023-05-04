@@ -1,0 +1,24 @@
+<form [formGroup]="form">
+  <div class="form-group">
+    <label for="street">Street:</label>
+    <input
+      type="text"
+      class="form-control"
+      id="street"
+      formControlName="street"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="city">City:</label>
+    <input type="text" class="form-control" id="city" formControlName="city" />
+  </div>
+
+  <div class="form-group">
+    <label for="country">Country:</label>
+    <select class="form-control" id="country" formControlName="countryId">
+      <option value="1">Poland</option>
+      <option value="2">USA</option>
+    </select>
+  </div>
+</form>
