@@ -12,8 +12,9 @@ import { RatingViewTestingComponent } from './rating-view.test-component';
 import { ReadMorePanelTestComponent } from './read-more-panel.test-component';
 import { HeaderComponentModule } from '../components/header/header.component-module';
 import { AvatarComponentModule } from '../components/avatar/avatar.component-module';
-import { CardComponentModule } from "../components/card/card.component-module";
+import { CardComponentModule } from '../components/card/card.component-module';
 import { RatingViewComponentModule } from '../components/rating-view/rating-view.component-module';
+import { ReadMorePanelComponentModule } from "../components/read-more-panel/read-more-panel.component-module";
 
 @NgModule({
     declarations: [
@@ -23,8 +24,8 @@ import { RatingViewComponentModule } from '../components/rating-view/rating-view
         // HeroTestComponent,
         // AddressFormTestComponent,
         // ProductFormTestComponent,
-        // ReadMorePanelTestComponent,
-         RatingViewTestingComponent,
+        ReadMorePanelTestComponent,
+        RatingViewTestingComponent,
     ],
     providers: [],
     imports: [
@@ -33,7 +34,8 @@ import { RatingViewComponentModule } from '../components/rating-view/rating-view
         HeaderComponentModule,
         AvatarComponentModule,
         CardComponentModule,
-        RatingViewComponentModule
+        RatingViewComponentModule,
+        ReadMorePanelComponentModule
     ]
 })
 export class AppTestingModule {}

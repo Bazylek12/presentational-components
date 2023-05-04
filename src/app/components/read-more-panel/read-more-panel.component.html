@@ -1,0 +1,5 @@
+<section>
+    <p>{{ mainText }}</p>
+    <button (click)="toggleReadMore()">{{ buttonLabel }}</button>
+    <p *ngIf="isOpen$ | async">{{ readMoreText }}</p>
+  </section>
