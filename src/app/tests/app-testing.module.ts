@@ -15,13 +15,14 @@ import { AvatarComponentModule } from '../components/avatar/avatar.component-mod
 import { CardComponentModule } from '../components/card/card.component-module';
 import { RatingViewComponentModule } from '../components/rating-view/rating-view.component-module';
 import { ReadMorePanelComponentModule } from "../components/read-more-panel/read-more-panel.component-module";
+import { HeroComponentModule } from '../components/hero/hero.component-module';
 
 @NgModule({
     declarations: [
         HeaderTestComponent,
         AvatarTestComponent,
         CardTestComponent,
-        // HeroTestComponent,
+        HeroTestComponent,
         // AddressFormTestComponent,
         // ProductFormTestComponent,
         ReadMorePanelTestComponent,
@@ -35,7 +36,8 @@ import { ReadMorePanelComponentModule } from "../components/read-more-panel/read
         AvatarComponentModule,
         CardComponentModule,
         RatingViewComponentModule,
-        ReadMorePanelComponentModule
+        ReadMorePanelComponentModule,
+        HeroComponentModule,
     ]
 })
 export class AppTestingModule {}
