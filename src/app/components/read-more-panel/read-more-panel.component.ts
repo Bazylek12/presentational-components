@@ -20,6 +20,7 @@ export class ReadMorePanelComponent {
   isReadMoreOpen: boolean = false;
   private _isOpenSubject: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
   public isOpen$: Observable<boolean> = this._isOpenSubject.asObservable();
+  
   get buttonLabel(): string {
     return this._isOpenSubject.value ? this.closedLabel : this.openLabel;
   }

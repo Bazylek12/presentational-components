@@ -17,6 +17,7 @@ import { RatingViewComponentModule } from '../components/rating-view/rating-view
 import { ReadMorePanelComponentModule } from "../components/read-more-panel/read-more-panel.component-module";
 import { HeroComponentModule } from '../components/hero/hero.component-module';
 import { AddressFormComponentModule } from '../components/address-form/address-form.component-module';
+import { ProductFormComponentModule } from '../components/product-form/product-form.component-module';
 
 @NgModule({
     declarations: [
@@ -25,7 +26,7 @@ import { AddressFormComponentModule } from '../components/address-form/address-f
         CardTestComponent,
         HeroTestComponent,
         AddressFormTestComponent,
-        // ProductFormTestComponent,
+        ProductFormTestComponent,
         ReadMorePanelTestComponent,
         RatingViewTestingComponent,
     ],
@@ -40,6 +41,7 @@ import { AddressFormComponentModule } from '../components/address-form/address-f
         ReadMorePanelComponentModule,
         HeroComponentModule,
         AddressFormComponentModule,
+        ProductFormComponentModule,
     ]
 })
 export class AppTestingModule {}
